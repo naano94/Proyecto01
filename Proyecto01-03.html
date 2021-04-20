@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto01-03 Mariano Cataldi</title>
+    <style>
+        #contenedor
+        {
+            width:80%;
+            margin: 0 auto;
+        }
+        #subcontenedor
+        {
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 70%;
+            align-items: center;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%; 
+        }
+        input[type="submit"]{
+            height: 40px;
+            width: 150px;
+            border-radius: 5px;
+        }
+        input[type="search"]
+        {
+            height: 40px;
+            width: 500px;
+            border-radius: 5px;
+        }
+        #player{
+            padding:10px;
+            border-radius: 10px;
+            width: 100%;
+            text-align: center;
+        }
+        .clase1
+        {
+            float: left;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        #apartado
+        {
+            width: 30%;
+            float: right;
+            margin-top: 25px;
+        }
+        #puntaje
+        {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        #texto
+        {
+            width: 70%;
+        }
+        #texto h1
+        {
+            text-align: center;
+        }
+        #texto p
+        {
+            text-align: justify;
+        }
+        @media (max-width: 865px){
+            #apartado,#subcontenedor
+            {
+                width: 100%;
+            }
+            #apartado
+            {
+                display: flex;
+                justify-content: space-around;
+            }
+            input[type="submit"]{
+            height: 40px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        input[type="search"]
+        {
+            height: 40px;
+            width: 300px;
+            border-radius: 5px;
+        }
+        }
+        @media (max-width: 645px){
+            #apartado
+            {
+                justify-content: center;
+                flex-direction: column;
+                display: flex;
+                width: 100%;
+            }
+            input[type="search"]
+            {
+                width: 200px;
+            }
+            .clase1
+            {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <h1>Página Video</h1>
+        <nav>
+            <image src="https://via.placeholder.com/150x50/aaafff/fff000.png">
+            <input type="search" placeholder="Buscar">
+            <input type="submit" value="Buscar">
+        </nav> 
+        </div>
+        <aside id="apartado"> 
+            <div class="clase1">
+                <image src="https://via.placeholder.com/200x100/aaafff/fff000.png"></image>
+                <h3>Titulo del Video</h3>
+            </div>
+            <div class="clase1">
+                <image src="https://via.placeholder.com/200x100/aaafff/fff000.png"></image>
+                <h3>Titulo del Video</h3>
+            </div>
+            <div class="clase1">
+                <image src="https://via.placeholder.com/200x100/aaafff/fff000.png"></image>
+                <h3>Titulo del Video</h3>
+            </div>
+        </aside>
+        <div id="subcontenedor">
+            <div id="player">
+                <video src="http://techslides.com/demos/sample-videos/small.mp4" controls loop poster="https://placeimg.com/640/480/any"></video>
+            </div>
+            <div id="texto">
+                <h1>Título del Video</h1>
+                <div id="puntaje">
+                    <p><strong>Autor: Mariano</strong></p>
+                    <p>&#128420</p>
+                    <p>&#128420</p>
+                    <p>&#128420</p>
+                    <p>&#128420</p>
+                    <p>&#128420</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis ad odio consectetur a quas excepturi nisi facere dolorum, ab rem perspiciatis deleniti, laudantium obcaecati est neque blanditiis doloremque esse.
+                    Asperiores at nobis corrupti doloremque eligendi saepe! Aspernatur placeat quidem eveniet suscipit ipsa consequuntur adipisci deserunt nobis voluptate laboriosam, modi numquam ducimus ullam dicta pariatur, atque nihil. Impedit, vero beatae.
+                    Perferendis possimus quaerat, ut sequi nobis dolor ipsam officiis laboriosam cupiditate corrupti architecto earum doloribus accusamus saepe cumque sint modi, pariatur itaque dolorum labore minima! Maiores aliquam reiciendis similique ea?
+                    Fugit eligendi iure in autem, veniam vero non perspiciatis tenetur, asperiores, officiis iusto quo saepe ab labore? Hic non assumenda blanditiis, sed, ad suscipit ex nemo repellat voluptates qui consectetur.
+                </p>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>

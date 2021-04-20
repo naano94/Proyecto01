@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto01-01 Mariano Cataldi</title>
+    <style>
+        #contenedor{
+            width: 100%;
+            margin: 0 auto;
+        }
+        #subcontenedor{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        h1{
+            margin-left: 15%;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 80%; 
+        }
+        input[type="submit"]{
+            height: 40px;
+            width: 150px;
+            border-radius: 5px;
+        }
+        input[type="search"]
+        {
+            height: 40px;
+            width: 500px;
+            border-radius: 5px;
+        }
+        h2
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin: 30px;
+        }
+        h3
+        {
+            text-align: center;
+        }
+        .clase1
+        {
+            float: left;
+            width: 300px;
+            height: 400px;
+            margin: 5px;
+        }
+        .fila
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        a{
+            color: black;
+            text-decoration:none;
+        } 
+        @media (max-width: 935px) {
+            input[type="submit"]{
+                height: 40px;
+                width: 100px;
+                border-radius: 5px;
+            }
+            input[type="search"]
+            {
+                height: 40px;
+                width: 300px;
+                border-radius: 5px;
+            }
+            .fila
+            {
+                justify-content: center;
+                flex-direction: column;
+                display: flex;
+                width: 100%;
+            }
+        }
+        @media (max-width: 740px) {
+            input[type="submit"]{
+                height: 40px;
+                width: 100px;
+                border-radius: 5px;
+            }
+            input[type="search"]
+            {
+                height: 40px;
+                width: 200px;
+                border-radius: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <h1>Home</h1>
+        <div id="subcontenedor">
+            <nav>
+                <image src="https://via.placeholder.com/150x50/aaafff/fff000.png">
+                <input type="search" placeholder="Buscar">
+                <input type="submit" value="Buscar">
+            </nav> 
+        </div>
+        <div id="banner">
+            <h2><a href="Proyecto01-03.html" target="_blank">Banner al Video Destacado</a></h2>
+        </div>
+        <div class="fila">
+            <div class="clase1">
+                <h3>Producto</h3>
+                <a href="Proyecto01-02.html" target="_blank"><image src="https://via.placeholder.com/300x300/aaafff/fff000.png"></image></a>
+            </div>
+            <div class="clase1">
+                <h3>Producto</h3>
+                <a href="Proyecto01-02.html" target="_blank"><image src="https://via.placeholder.com/300x300/aaafff/fff000.png"></image></a>
+            </div><div class="clase1">
+                <h3>Producto</h3>
+                <a href="Proyecto01-02.html" target="_blank"><image src="https://via.placeholder.com/300x300/aaafff/fff000.png"></image></a>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="clase1">
+                <h3>Producto</h3>
+                <a href="Proyecto01-02.html" target="_blank"><image src="https://via.placeholder.com/300x300/aaafff/fff000.png"></image></a>
+            </div><div class="clase1">
+                <h3>Producto</h3>
+                <a href="Proyecto01-02.html" target="_blank"><image src="https://via.placeholder.com/300x300/aaafff/fff000.png"></image></a>
+            </div><div class="clase1">
+                <h3>Producto</h3>
+                <a href="Proyecto01-02.html" target="_blank"><image src="https://via.placeholder.com/300x300/aaafff/fff000.png"></image></a>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="clase1">
+                <h3>Producto</h3>
+                <a href="Proyecto01-02.html" target="_blank"><image src="https://via.placeholder.com/300x300/aaafff/fff000.png"></image></a>
+            </div><div class="clase1">
+                <h3>Producto</h3>
+                <a href="Proyecto01-02.html" target="_blank"><image src="https://via.placeholder.com/300x300/aaafff/fff000.png"></image></a>
+            </div><div class="clase1">
+                <h3>Producto</h3>
+                <a href="Proyecto01-02.html" target="_blank"><image src="https://via.placeholder.com/300x300/aaafff/fff000.png"></image></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
